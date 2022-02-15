@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*index*/
+body{
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    padding: 1em;
+    background-color: black;
+    min-height: 100vh;
+}
+#container{
+    display: flex;
+    flex: 1;
+    background-color: rgb(41, 37, 37);
+}
+header{
+    background-image: url(../img/Inicio.png) ; 
+    background-repeat: no-repeat;
+    background-size: 28%;
+    background-position: center;
+    background-color: black;
+    height: 100px;
+}
+article{
+    flex: 1;
+}
+.imag-i1{
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    height: 500px;
+    margin: 20px;
+}
+.imag-i2{
+    background-image: url(../img/inicio2.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    height: 500px;
+    margin: 20px;
+}
+aside{
+    background-color: rgb(41, 37, 37);
+}
+.texto{
+    display: grid;
+    grid-template-rows: auto;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    font-stretch: normal;
+    position: relative;
+    margin: 20px;
+    background-color: black;
+    background-position: center;
+}
+footer{
+    flex: 1;
+    padding: 1rem;
+    margin: 1px;
+    background-color: rgb(184, 3, 3);
+    margin: 20px;
+    height: 65px;
+}
+nav li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    font-style: unset;
+    float:left;
+    list-style: none;
+    margin: 10px;
+    background: rgb(41, 37, 37);
+    position: relative;
+    font-size: 100%;
+}
+.clearflix{
+    clear: both;
+}
+h1{
+    color: aliceblue;
+    font-size: xx-large;
+    font-family: fantasy;
+    margin: 0px;
+    text-align: left;
+    line-height: 100%;
+}
+h2{
+    color: aliceblue;
+    font-size: xx-large;
+    font-family: fantasy;
+    margin: 10px;
+    border: 4px solid rgb(41, 37, 37);
+    line-height: 100%;
+}
+a{
+    color: gray;
+    font-family: fantasy;
+}
+.piedepagina{
+    margin: 20px;
+    position: relative;
+}
+.copy{
+    color: white;
+    background-color: black;
+}
+/*galeria*/
+.videos{
+    margin: 22px;
+    background-color: rgb(184, 3, 3);
+}
+.imagenes{
+    margin: 22px;
+    background-color: rgb(184, 3, 3);
+}
+/*discografia*/
+.audio{
+    margin: 15px;
+    background-color: rgb(184, 3, 3);
+    position: relative;
+}
+/*tour*/
+.pepe{
+    background-color: rgb(184, 3, 3);
+    color: gainsboro;
+    transform: translate(13%);
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+.grid-layount{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: space-around;
+    width: 100%;
+    margin: 20 auto;
+    background-color: rgb(184, 3, 3);
+    padding: 20px;
+    border: white;
+    background-size: center;
+}
+.caja{
+    background-color: black;
+    color: whitesmoke;
+    width: 208px;
+    height: 80px;
+    margin: 5px;
+    border: white;
+    text-align: center;
+    line-height: 75px;
+    font-family: fantasy;
+    font-size: 150%;
+    position: relative;
+}
+@media(max-width: 768px){
+    .grid-layount{
+        display: flex;
+        flex-direction: column;
+    }
+    .caja{
+        width: 70vw; 
+    }
+}
+/*contacto*/
+.grid-layount1{
+    background-color: rgb(41, 37, 37);
+    display: grid;
+    width: 100%;
+    height: 200px;
+}
+.caja-c1{
+    background-color: rgb(184, 3, 3);
+    width: 100%;
+    height: 50px;
+}
+.caja-c2{
+    background-color: rgb(41, 37, 37);
+    width: 100%;
+    height: 50px;
+}
+.caja-c3{
+    background-color: rgb(184, 3, 3);
+    width: 100%;
+    height: 50px;
+}
+.caja-c4{
+    background-color: rgb(41, 37, 37);
+    width: 100%;
+    height: 50px;
+}
