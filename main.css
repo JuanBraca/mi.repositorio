@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*index*/
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 600px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1em;
+  background-color: black;
+  min-height: 100vh;
+}
+
+#container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  background-color: #292525;
+}
+
+header {
+  background-image: url(../img/Inicio.png);
+  background-repeat: no-repeat;
+  background-size: 28%;
+  background-position: center;
+  background-color: black;
+  height: 100px;
+}
+
+article {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.imag-i1 {
+  background-image: url(../img/principal.jpg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  height: 500px;
+  margin: 20px;
+}
+
+.imag-i2 {
+  background-image: url(../img/inicio2.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  height: 500px;
+  margin: 20px;
+}
+
+aside {
+  background-color: #292525;
+}
+
+.texto {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  font-stretch: normal;
+  position: relative;
+  margin: 20px;
+  background-color: black;
+  background-position: center;
+}
+
+footer {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 1rem;
+  margin: 1px;
+  background-color: #b80303;
+  margin: 20px;
+  height: 65px;
+}
+
+nav li {
+  list-style: none;
+}
+
+nav li a {
+  text-decoration: none;
+  font-style: unset;
+  float: left;
+  list-style: none;
+  margin: 10px;
+  background: #292525;
+  position: relative;
+  font-size: 100%;
+}
+
+h1 {
+  color: aliceblue;
+  font-size: xx-large;
+  font-family: fantasy;
+  margin: 0px;
+  text-align: left;
+  line-height: 100%;
+}
+
+h2 {
+  color: aliceblue;
+  font-size: xx-large;
+  font-family: fantasy;
+  margin: 10px;
+  border: 4px solid #292525;
+  line-height: 100%;
+}
+
+a {
+  color: gray;
+  font-family: fantasy;
+}
+
+.piedepagina {
+  margin: 20px;
+  position: relative;
+}
+
+.copy {
+  color: white;
+  background-color: black;
+}
+
+/*galeria*/
+.videos {
+  margin: 22px;
+  background-color: #b80303;
+}
+
+.imagenes {
+  margin: 22px;
+  background-color: #b80303;
+}
+
+/*discografia*/
+.audio {
+  margin: 15px;
+  background-color: #b80303;
+  position: relative;
+}
+
+/*tour*/
+.pepe {
+  background-color: #b80303;
+  color: gainsboro;
+  -webkit-transform: translate(13%);
+          transform: translate(13%);
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+.grid-layount {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto auto auto auto;
+      grid-template-columns: auto auto auto auto auto auto;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+  margin: 20 auto;
+  background-color: #b80303;
+  padding: 20px;
+  border: white;
+  background-size: center;
+}
+
+.caja {
+  background-color: black;
+  color: whitesmoke;
+  width: 208px;
+  height: 80px;
+  margin: 5px;
+  border: white;
+  text-align: center;
+  line-height: 75px;
+  font-family: fantasy;
+  font-size: 150%;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .grid-layount {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .caja {
+    width: 70vw;
+  }
+}
+
+/*contacto*/
+.grid-layount1 {
+  background-color: #292525;
+  display: -ms-grid;
+  display: grid;
+  width: 100%;
+  height: 200px;
+}
+
+.caja-c1 {
+  background-color: #b80303;
+  width: 100%;
+  height: 50px;
+}
+
+.caja-c2 {
+  background-color: #292525;
+  width: 100%;
+  height: 50px;
+}
+
+.caja-c3 {
+  background-color: #b80303;
+  width: 100%;
+  height: 50px;
+}
+
+.caja-c4 {
+  background-color: #292525;
+  width: 100%;
+  height: 50px;
+}
+/*# sourceMappingURL=main.css.map */
