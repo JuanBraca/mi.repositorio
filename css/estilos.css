@@ -83,7 +83,7 @@ nav li a{
 .clearflix{
     clear: both;
 }
-h1{
+.titu{
     color: aliceblue;
     font-size: xx-large;
     font-family: fantasy;
@@ -91,7 +91,7 @@ h1{
     text-align: left;
     line-height: 100%;
 }
-h2{
+h1{
     color: aliceblue;
     font-size: xx-large;
     font-family: fantasy;
