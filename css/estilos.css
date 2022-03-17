@@ -65,7 +65,7 @@ footer{
     margin: 1px;
     background-color: rgb(184, 3, 3);
     margin: 20px;
-    height: 65px;
+    height: 95px;
 }
 nav li{
     list-style: none;
@@ -195,3 +195,32 @@ a{
     width: 100%;
     height: 50px;
 }
+ul li a{
+    text-decoration: none;
+    font-style: unset;
+    float: left;
+    list-style: none;
+    margin: 10px;
+    background: rgb(41, 37, 37);
+    position: relative;
+    font-size: 100%;
+}
+.box-uno {
+    background-color:#040e1f ;
+    width: 455px;
+  }
+  
+  .box-dos {
+    background-color: #f31616;
+    width: 455px;
+  }
+  
+  .box-tres {
+    background-color: #040e1f;
+    width: 455px;
+  }
+  
+  .box-cuatro {
+    background-color: #f31616;
+    width: 455px;
+  }
