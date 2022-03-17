@@ -92,7 +92,18 @@ body footer {
   height: 65px;
 }
 
-body footer .piedepagina {
+body footer ul li a {
+  text-decoration: none;
+  font-style: unset;
+  float: left;
+  list-style: none;
+  margin: 10px;
+  background: #292525;
+  position: relative;
+  font-size: 100%;
+}
+
+body footer ul li a .piedepagina {
   margin: 20px;
   position: relative;
 }
@@ -108,7 +119,6 @@ body #container {
 }
 
 body #container .imag-i1 {
-  background-image: url(../img/principal.jpg);
   background-repeat: no-repeat;
   background-size: 80%;
   background-position: center;
@@ -245,5 +255,25 @@ body .caja-c4 {
   background-color: #292525;
   width: 100%;
   height: 50px;
+}
+
+.box-uno {
+  background-color: #040e1f;
+  width: 360px;
+}
+
+.box-dos {
+  background-color: #f31616;
+  width: 310px;
+}
+
+.box-tres {
+  background-color: #040e1f;
+  width: 410px;
+}
+
+.box-cuatro {
+  background-color: #f31616;
+  width: 205.71429px;
 }
 /*# sourceMappingURL=main.css.map */
